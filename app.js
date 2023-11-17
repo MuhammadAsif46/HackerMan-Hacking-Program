@@ -2,14 +2,15 @@
 let user = prompt("enter your name");
 
 let messages = [
-    `Initializing Hack program '${user}'.....`,
-    `Hacking '${user}' username and password.....`,
-    `Username found '${user}06'....`,
-    "Connecting to Facebook.....",
-    "Connecting to Intragram.....",
-    "Connecting to Whatsupp.....",
-    "Connecting to githhub.....",
-    "Connecting to linkedin....."
+    `Initializing Hack (" ${user} ") program .....`,
+    `Connecting to (" ${user} ") Facebook.....`,
+    "Connecting to Server 1.....",
+    "Connection failed. Retrying.....",
+    "Connecting to Server 2.....",
+    "Connected Successfully.....",
+    `Hacking (" ${user} ") username and password.....`,
+    `Username found (" ${user}06")...`,
+    "Hacking Successfully.....",
 ]
 
 const waiting = (seconds)=>{
